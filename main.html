@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .example {
+        padding: 10px;
+        border: 1px solid #CCC;
+      }
+      #example-list-fs ul {
+        padding-left: 0;
+      }
+      #example-list-fs li {
+        list-style: none;
+      }
+      #example-list-fs img {
+        vertical-align: middle;
+      }
+      button {
+        padding: 5px 8px;
+        cursor: pointer;
+        text-shadow: 1px 1px white;
+        font-weight: 700;
+        font-size: 10pt;
+      }
+      body {
+        font: 14px Arial;
+      }
+    </style>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div id="example-list-fs" class="example">
+      <audio controls>
+        <source src="filesystem:chrome-extension://edabgjclhapbildenfjgmnajedckniod/temporary/teste.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <button>Listar Arquivos</button>
+      <ul id="filelist"></ul>
+    </div>
+  </body>
+</html>​

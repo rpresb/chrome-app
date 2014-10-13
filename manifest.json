@@ -1,0 +1,19 @@
+{
+  "name": "Gols",
+  "description": "Gols",
+  "version": "1.0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "permissions" : [
+    "fileSystem",
+    "http://www.manualdomundo.com.br/"
+  ]
+}
